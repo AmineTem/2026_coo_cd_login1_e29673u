@@ -1,0 +1,23 @@
+<Le diagramme de séquence montre le fonctionnement
+ du chargement d’un magasin.
+
+ Un objet ChargeurMagasin est créé avec le nom
+ d’un répertoire contenant des fichiers XML.
+
+ Lorsque la méthode chargerMagasin() est appelée :
+
+ 1. Le chargeur parcourt les fichiers du répertoire.
+
+ 2. Pour chaque fichier XML, un objet ChargeurCD
+ est créé.
+
+ 3. ChargeurCD lit le fichier XML.
+
+ 4. ChargeurCD construit un objet CD.
+
+ 5. Le CD créé est retourné à ChargeurMagasin.
+
+ 6. ChargeurMagasin ajoute le CD dans le Magasin.
+
+ 7. Lorsque tous les fichiers sont traités,
+ le Magasin complet est retourné.
